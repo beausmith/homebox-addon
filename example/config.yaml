@@ -3,11 +3,11 @@ name: Homebox Add-on
 version: "2.2.0"
 slug: homebox
 description: Run Homebox inventory inside Home Assistant
-url: "https://github.com/jscarrott/homebox-addon"
+url: "https://github.com/beausmith/homebox-addon"
 arch:
   - aarch64
   - amd64
 ports:
   7745/tcp: 7745
 webui: "http://[HOST]:[PORT:7745]"
-image: "ghcr.io/jscarrott/homebox-addon-{arch}"
+image: "ghcr.io/beausmith/homebox-addon-{arch}"
